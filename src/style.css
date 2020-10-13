@@ -40,7 +40,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: yellow;
+  color: blue;
 }
 
 button {
@@ -54,6 +54,6 @@ button {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
 }
