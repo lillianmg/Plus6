@@ -50,3 +50,10 @@ button {
   padding: 6px;
   border-radius: 6px;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: green;
+  color: white;
+}
