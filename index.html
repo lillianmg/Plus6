@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather app</title>
+    <meta charset="UTF-8" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/4ca7fe6e62.js">
+    </script>
+    <link rel="stylesheet" href="src/style.css">
+    </head>
+<body>
+    <header>Weather App</header>
+
+    <nav class="navbar" style="background-color: #ffffff;">
+        <form class="form-inline" id="search-form">
+            <input type="search" id="city-input" class="form-control mr-sm-2" placeholder="Enter city" autofocus="off"
+                autocomplete="off" />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search">Search</button>
+            <button id="current-location-button">Current</button>
+        </form>
+    </nav>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                Today in
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+
+                <h1 id="city">
+                    Dallas, Texas
+                </h1>
+                <ul>
+                    <p>
+                    <h2>Thursday</h2>
+                    </p>
+
+                    <li><span class="weather" id="temperature-description">Very sunny</span></li>
+                    <li>
+                        <i class="fas fa-sun"></i></li>
+                    <span class="temperature" id="temperature">36</span>
+                    <span class="celsius" id="celsius"> °C </span>
+
+                    </br>
+                </ul>
+                <row><strong>Forecast for the next 4 days </strong></row>
+                <ul>
+            </div>
+            <div class="col">
+                <ul class="weather-details">
+                    <li><span id="description"></span></li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind"></span>mph</li>
+                </ul>
+            </div>
+        </div>
+        </ul>
+
+        <ul>
+            <div class="row align-items-end">
+                <div class="col">
+                    <li>Tuesday</li>
+                    <li><i class="far fa-sun"></i></li>
+                    <li>36°/26°</li>
+                </div>
+                <div class="col">
+                    <li>Wednesday</li>
+                    <li><i class="fas fa-cloud-sun"></i></li>
+                    <li>30°/23°</li>
+                </div>
+                <div class="col">
+                    <li>Thursday</li>
+                    <i class="fas fa-cloud"></i>
+                    <li>26°/18°</li>
+                </div>
+                <div class="col">
+                    <li>Friday</li>
+                    <li><i class="fas fa-cloud-rain"></i></li>
+                    <li>22°/15°</li>
+                </div>
+            </div>
+    </div>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script src="src/script.js"></script>
+</body>
+
+</html>
