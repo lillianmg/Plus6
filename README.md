@@ -1,2 +1,2 @@
-# Plus6
+# Plus
  Project
